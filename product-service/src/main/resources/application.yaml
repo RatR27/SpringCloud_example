@@ -1,0 +1,15 @@
+server:
+  port: 6569
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/microServices?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: pass1234forRost#27
+    show-sql: true
+    ddl-auto: update
+    dialect: org.hibernate.dialect.MySQL5Dialect
+
+  application:
+      name: product-client
